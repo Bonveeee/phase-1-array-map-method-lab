@@ -12,5 +12,8 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  return tutorials
-}
+  for (String of tutorials){
+    tutorials.map(String.titleCased);
+    return tutorials
+  }
+  }
